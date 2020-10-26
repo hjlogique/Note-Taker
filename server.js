@@ -34,7 +34,7 @@ app.get("/api/notes", function (req, res) {
 
 app.post("/api/notes", function (req, res) {
 
-    let notesList = []; // List of Note bjects
+    let notesList = []; // List of Note objects
 
     // Current list of notes
     let data = fs.readFileSync(path.resolve(database, "db.json"), "utf8");
