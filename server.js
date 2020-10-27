@@ -10,7 +10,7 @@ var path = require("path");
 
 // Set up the Express App
 var app = express(); // Express server
-var PORT = 3000; // PORT 
+var PORT = process.env.PORT || 3001; // PORT 
 
 // Set up the Express app to handle data parsing
 app.use(express.urlencoded({ extended: true })); // Middleware
@@ -107,12 +107,12 @@ app.delete("/api/notes/:id", function (req, res) {
 
 // HTML GET displays the `index.html` file
 app.get("/", function (req, res) {
-    res.sendFile(path.join(__dirname, "./public/index.html"));
+    res.sendFile(path.join(__dirname, "public/index.html"));
 });
 
 // HTML GET displays the `notes.html` file
 app.get("/notes", function (req, res) {
-    res.sendFile(path.join(__dirname, "./public/notes.html"));
+    res.sendFile(path.join(__dirname, "public/notes.html"));
 });
 
 
