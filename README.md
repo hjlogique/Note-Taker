@@ -24,9 +24,9 @@
   
   Using this application, users can write view, save and delete notes. By selecting the `pen icon` (new note button) users can create a new note. Once the note title and the text content are entered by users, they can use the `floppy disk icon` (save button) to save the new note. As soon as the new note is saved, a new row is added to the left column list. By selecting each item in the list users can view the content of the selected note. Each `trash icon` (delete button) in the listed items deletes the selected note and removes it from the list. The followings are two screenshots of the application:
 
-![Note Taker application screenshot1](/screenshot/screenshot1.png)
+![Note Taker application screenshot1](/screenshots/Screenshot1.png)
 
-![Note Taker application screenshot2](/screenshot/screenshot2.png)
+![Note Taker application screenshot2](/screenshots/Screenshot2.png)
  
   ## Contributing
   
